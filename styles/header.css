@@ -1,4 +1,4 @@
-.cabeçalho_menu-hamburguer {
+.cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     display: inline-block;
@@ -26,10 +26,10 @@
 
 .lista-menu {
     display: none;
-    position: aboslute;
-    top: 100%;
+    position: absolute;
+    top:100%;
 }
 
-.container__botao:checked~.lista-menu {
-display: block;
+.container__botao:checked ~ .lista-menu {
+    display: block;
 }
