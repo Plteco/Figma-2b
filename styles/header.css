@@ -1,4 +1,4 @@
-
+.cabeçalho__menu-hamburguer {
 height: 24px;
 display: inline-block;
 background-image: url("../img/Menu.svg");
@@ -51,8 +51,4 @@ background-image: url("../img/Menu.svg");
     -webkit-text-fill-color: transparent;
     background-clip: text;
 text-transform: uppercase;
-}
-
-.container__botao {
-    display: none;
 }
